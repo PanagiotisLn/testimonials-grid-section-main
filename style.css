@@ -6,7 +6,7 @@ body {
 .testimonial {
   display: flex;
   flex-direction: column;
-  width: 82%;
+  width: 83%;
   margin: 20px auto;
   padding: 30px 25px;
   border-radius: 15px;
