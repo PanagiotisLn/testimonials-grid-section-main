@@ -1,13 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-size: 13px;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: hsl(210, 46%, 95%);
+  min-height: 100vh;
+  line-height: 1.5;
+}
+.grid-templ {
+  width: 83%;
+  margin: auto;
 }
 .testimonial {
   display: flex;
   flex-direction: column;
-  width: 83%;
-  margin: 20px auto;
+  margin-top: 10px;
+  margin-left: 10px;
   padding: 30px 25px;
   border-radius: 15px;
 }
@@ -48,4 +59,42 @@ img {
 }
 .paragr {
   font-size: 1.7rem;
+}
+.testimonial:nth-child(1) {
+  grid-area: one;
+}
+.testimonial:nth-child(2) {
+  grid-area: two;
+}
+.testimonial:nth-child(3) {
+  grid-area: three;
+}
+.testimonial:nth-child(4) {
+  grid-area: four;
+}
+.testimonial:nth-child(5) {
+  grid-area: five;
+}
+
+@media (min-width: 50rem) {
+  .grid-templ {
+    display: grid;
+    gap: 8px;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "one two"
+      "one five"
+      "three five"
+      "four four";
+  }
+}
+@media (min-width: 70rem) {
+  .grid-templ {
+    display: grid;
+    gap: 8px;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "one one two five"
+      "three four four five";
+  }
 }
