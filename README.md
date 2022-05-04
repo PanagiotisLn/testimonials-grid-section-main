@@ -11,9 +11,9 @@ In this mini-project i created a Responsive Layout with Grid for desplaying test
 
 ### Medium Screen devices
 
-<img src="image url" alt="alt text" title="image Title" />
+<img src="Screenshots/medium-screen-sizes.png" />
 
 
 ### Small Screen devices
 
-<img src="image url" alt="alt text" title="image Title" />
+<img src="Screenshots/small-sizes.png"/>
