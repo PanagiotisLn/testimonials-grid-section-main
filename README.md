@@ -6,7 +6,7 @@ In this mini-project i created a Responsive Layout with Grid for desplaying test
 
 ### Big Screen devices
 
-<img src="image url" alt="alt text" title="image Title" />
+<img src="Screenshots/big-screen-sizes.png" />
 
 
 ### Medium Screen devices
