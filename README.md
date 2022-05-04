@@ -16,4 +16,4 @@ In this mini-project i created a Responsive Layout with Grid for desplaying test
 
 ### Small Screen devices
 
-<img src="Screenshots/small-sizes.png"/>
+<img src="Screenshots/small-screen-sizes.png"/>
